@@ -31,7 +31,7 @@
 </div>
 
 <div class="clearfix">
-	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
 </div>
 
 <div class="container">
@@ -108,6 +108,21 @@
 			<img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="">
 		</div>
 	</div>
+</div>
+
+<div class="container">
+<?php while ( have_posts() ) : the_post(); ?>
+
+	<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+	<?php
+		// If comments are open or we have at least one comment, load up the comment template.
+		if ( comments_open() || get_comments_number() ) :
+			comments_template();
+		endif;
+	?>
+
+<?php endwhile; // End of the loop. ?>
 </div>
 
 <?php get_footer(); ?>
