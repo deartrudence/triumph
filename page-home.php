@@ -9,7 +9,7 @@
 	</header>
 
 
-<div class="row container margin-top-100">
+<div class="row container padding-top-100">
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Triumph Capital</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum omnis corporis, dolores laudantium harum itaque dicta odio, quas velit accusamus consequatur. Saepe, cupiditate, ea.</p>
@@ -19,7 +19,7 @@
 		<p>Triumph provides specialized strategic solutions to meet your life insurance needs. From mortgage insurance to estate planning, we specialize in making sure you and your loved ones are protected.</p>
 	</div>
 </div>
-<div class="row container margin-bottom-100">
+<div class="row container padding-bottom-100">
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Investor Services</h3>
 		<p>Triumph Capital specializes in investment analysis, retirement, and estate planning. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
@@ -30,16 +30,16 @@
 	</div>
 </div>
 
-<div class="clearfix">
+<!-- <div class="clearfix"> -->
 	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
-</div>
+<!-- </div> -->
 
-<div class="container margin-top-100">
+<div id="about"class="container padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">Who We Are</h3>
 	<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future. We are committed to adhering to a set of principles and practices that have been proven to deliver on the long-term goals of our clients. It is our mission to ensure that the concepts we put in place will exceed your goals and expectations, while providing the value and peace of mind you deserve.</p>
 </div>
 
-<div class="row container margin-bottom-100">
+<div class="row container padding-bottom-100">
 	<div class="col-half home__bio">
 		<h3 >Diana Dyer</h3>
 		<h4 class="margin-bottom-50">President</h4>
@@ -52,12 +52,13 @@
 	</div>
 </div>
 
-<div class="clearfix">
+<!-- <div class="clearfix"> -->
 	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
-</div>
+	</div>
 
-<div class="container margin-bottom-100 margin-top-100">
+<div id="services"class="container padding-bottom-100 padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">What We Do</h3>
+	<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future. We are committed to adhering to a set of principles and practices that have been proven to deliver on the long-term goals of our clients. It is our mission to ensure that the concepts we put in place will exceed your goals and expectations, while providing the value and peace of mind you deserve.</p>
 	<div class="row">
 		<div class="col-half">
 			<ul class="home__service-list">
@@ -84,11 +85,11 @@
 	</div>
 </div>
 
-<div class="clearfix">
+<!-- <div class="clearfix"> -->
 	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
-</div>
+	</div>
 
-<div class="container home__get-in-touch margin-top-100 margin-bottom-100">
+<div id="contact"class="container home__get-in-touch padding-top-100 padding-bottom-100">
 	<h3 class="home__subtitle margin-bottom-50">Get In Touch</h3>
 	<div class="row">
 		<div class="col-half">
@@ -117,12 +118,6 @@
 
 	<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-	<?php
-		// If comments are open or we have at least one comment, load up the comment template.
-		if ( comments_open() || get_comments_number() ) :
-			comments_template();
-		endif;
-	?>
 
 <?php endwhile; // End of the loop. ?>
 </div>

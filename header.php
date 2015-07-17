@@ -32,13 +32,15 @@
 
 			<div class="container home__container">
 				<h2 class="header__title">
-					Providing you with confidence that
+					<span>Providing</span> you with <span>confidence</span> that
 				</h2>
+				<br>
 				<h2 class="header__title">
 					your family and wellbeing are
 				</h2>
+				<br>
 				<h2 class="header__title">
-					protected
+					<span>protected</span>
 				</h2>
 			</div>
 			</div>

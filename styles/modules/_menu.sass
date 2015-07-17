@@ -16,12 +16,16 @@
 				:display inline-block
 				:margin-right 20px
 				:font-size 20px
+				:letter-spacing 3.5px
+				:font-weight lighter
+				:font-family 'Avenir', sans-serif
 				a 
 					:text-decoration none
+					:outline 0
 					:color white
 					:position relative
 					:transition all 0.5s
-					&:hover
+					&:hover, &:active, &:focus
 						:color $gold	
 						&:after
 							:content ''
