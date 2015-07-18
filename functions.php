@@ -43,6 +43,7 @@ function triumph_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'triumph' ),
+		'secondary' => esc_html__('Secondary Menu', 'triumph' ),
 	) );
 
 	/*
@@ -119,6 +120,10 @@ function triumph_scripts() {
 	wp_enqueue_script( 'triumph-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	wp_enqueue_script('triump-contact-form', get_template_directory_uri() . '/js/contact-form.js', array(), '20150718', true );
+
+	wp_enqueue_script('triumph-Chart', get_template_directory_uri(). '/js/Chart.js', array(), '20150718', true );
+
+	wp_enqueue_script('triumph-disability-chart', get_template_directory_uri(). '/js/disability-chart.js', array(), '20150718', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

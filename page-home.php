@@ -1,5 +1,11 @@
 <?php /* Template Name: Home */ ?>
 <?php get_header(); ?>
+
+<nav id="site-navigation" class="site-header__navigation" role="navigation">
+	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'triumph' ); ?></button>
+	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+</nav><!-- #site-navigation -->
+
 <div id="home">
 	<?php $thumb_id = get_post_thumbnail_id();
 		$thumb_url_array = wp_get_attachment_image_src( $thumb_id, 'full', true );
@@ -30,9 +36,7 @@
 	</div>
 </div>
 
-<!-- <div class="clearfix"> -->
-	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
-<!-- </div> -->
+<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
 
 <div id="about"class="container padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">Who We Are</h3>
@@ -52,9 +56,8 @@
 	</div>
 </div>
 
-<!-- <div class="clearfix"> -->
-	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
-	</div>
+<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+</div>
 
 <div id="services"class="container padding-bottom-100 padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">What We Do</h3>
@@ -75,7 +78,7 @@
 			<ul class="home__service-list">
 				<li>Leverage Investing</li>
 				<li>Health Care</li>
-				<li>Life Insurance</li>
+				<li><a href="<?php echo get_site_url() ?>/life-insurance">Life Insurance</a></li>
 				<li>Insurance for Doctors</li>
 				<li>Insurance for Lawyers</li>
 				<li>Long Term Care</li>
@@ -85,9 +88,9 @@
 	</div>
 </div>
 
-<!-- <div class="clearfix"> -->
-	<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
-	</div>
+
+<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+</div>
 
 <div id="contact"class="container home__get-in-touch padding-top-100 padding-bottom-100">
 	<h3 class="home__subtitle margin-bottom-50">Get In Touch</h3>
@@ -113,7 +116,10 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+	</div>
+
+<div id="quote" class="container">
 <?php while ( have_posts() ) : the_post(); ?>
 
 	<?php get_template_part( 'template-parts/content', 'page' ); ?>
