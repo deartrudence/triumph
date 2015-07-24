@@ -39,6 +39,12 @@
 	&__header
 		:background $royal-purple
 		:color white
+		.hero-image
+		 	:height 100vh
+		 	:background-attachment fixed
+		 	:background-size cover
+		 	@media screen and (max-width: 600px)
+		 		:height 60vh
 		h2.header__title
 			:font-size 36px
 			:letter-spacing 1.5px
@@ -51,6 +57,9 @@
 			// :text-align left 
 			span
 				:color $gold
+			@media screen and (max-width: 600px)
+				:font-size 20px
+				:margin 10px
 		h1.header__logo
 			:margin 0
 	&__subtitle
@@ -58,6 +67,8 @@
 		:color $royal-purple
 		:text-align center
 		:margin-top 0
+		@media screen and (max-width: 600px)
+			:font-size 40px
 	&__block-title
 		:font-size 27px
 		:text-align center
@@ -72,12 +83,16 @@
 		h4 
 			:color $gold
 	&__service-list
-		:font-family 'PT sans', sans serif 
+		:font-family 'PT sans', sans serif
 		:list-style none
 		:padding 0
 		:margin 0
 		// :text-align center
 		:margin-left 12%
+		li 
+			:font-size 25px 
+			@media screen and (max-width: 600px)
+				:font-size 20px
 		li
 			a 
 				:text-decoration none
@@ -100,6 +115,9 @@
 			:position absolute
 			:width 50%
 			:bottom 127px
+			@media screen and (max-width: 600px)
+				:position static
+				:width 100%
 		a 
 			:text-decoration none
 			:color #404040
@@ -112,6 +130,8 @@
 		:left 50%
 		:transform translate(-50%, -50%)
 		// :text-align center
+		@media screen and (max-width: 600px)
+			:position relative
 		.title-center
 			:display block
 			:max-width 860px

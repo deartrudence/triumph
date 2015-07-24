@@ -28,7 +28,7 @@
 	<header id="masthead" class="home__header" role="banner">
 		<div class="site-branding">
 			<div class="clearfix">
-				<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev-1.jpg'); height: 100vh; background-attachment: fixed; background-size: cover; ">
+				<div class="clearfix hero-image" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev-1.jpg');  ">
 				<h1 class="header__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 				<div class="container home__container">

@@ -111,7 +111,7 @@
 					<p class="align-right">Fax: 1-888-315-7781</p>
 				</div>
 			</div>
-			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb"><img class="map" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="Map to 171 East Liberty Street"></a>
+			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank"><img class="map" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="Map to 171 East Liberty Street"></a>
 		</div>
 	</div>
 </div>
