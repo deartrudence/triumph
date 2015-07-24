@@ -29,21 +29,23 @@
 		<div class="site-branding">
 			<div class="clearfix">
 				<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev-1.jpg'); height: 100vh; background-attachment: fixed; background-size: cover; ">
-			<h1 class="header__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="header__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-			<div class="container home__container">
-				<h2 class="header__title">
-					<span>Providing</span> you with <span>confidence</span> that
-				</h2>
-				<br>
-				<h2 class="header__title">
-					your family and wellbeing are
-				</h2>
-				<br>
-				<h2 class="header__title">
-					<span>protected</span>
-				</h2>
-			</div>
+				<div class="container home__container">
+					<div class="title-center clearfix">		
+						<h2 class="header__title">
+							<span>Providing</span> you with <span>confidence</span> that
+						</h2>
+						<br>
+						<h2 class="header__title">
+							your family and wellbeing are
+						</h2>
+						<br>
+						<h2 class="header__title">
+							<span>protected</span>
+						</h2>
+					</div>
+				</div>
 			</div>
 		</div><!-- .site-branding -->
 

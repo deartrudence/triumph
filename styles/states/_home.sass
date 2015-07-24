@@ -32,6 +32,9 @@
 	.padding-2-percent
 		:padding 2%
 
+	.entry-header
+		:display none
+
 .home
 	&__header
 		:background $royal-purple
@@ -45,6 +48,7 @@
 			:text-transform uppercase
 			:background-color rgba(0,0,0,0.5)
 			:padding 10px
+			// :text-align left 
 			span
 				:color $gold
 		h1.header__logo
@@ -96,12 +100,22 @@
 			:position absolute
 			:width 50%
 			:bottom 127px
+		a 
+			:text-decoration none
+			:color #404040
+			&:visited
+				:color #404040
 	&__container
 		:margin 0 auto
 		:position absolute
 		:top 50%
 		:left 50%
 		:transform translate(-50%, -50%)
+		// :text-align center
+		.title-center
+			:display block
+			:max-width 860px
+			:margin 0 auto
 	&__content-block
 		:padding 70px 0		
 	&__content

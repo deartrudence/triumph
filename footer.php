@@ -13,9 +13,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'triumph' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'triumph' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'triumph' ), 'triumph', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<p>Copyright &copy; <?php echo date('Y'); ?> Triumph Capital Limited. All Rights Reserved. Developed by <a href="#">Up At Five</a>
+			<p>Triumph Capital Limited | 171 East Liberty Street Suite 272 Toronto, ON M6K 3P6 | (647) 345-0611 | 1-888-315-7781</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

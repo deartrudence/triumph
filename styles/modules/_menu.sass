@@ -3,6 +3,19 @@
 	:margin 20px 0
 	&__navigation
 		:background-color $royal-purple
+		.menu-toggle
+			:background-color $royal-purple
+			:color white
+			:border 1px solid $royal-purple
+			:border-bottom 1px solid $gold
+			:border-radius 1px
+			:text-shadow none
+			:box-shadow none
+			:margin 0 auto
+			:font-size 20px
+			:letter-spacing 3.5px
+			:font-weight lighter
+			:font-family 'Avenir', sans-serif
 		ul
 			:margin 0
 			:padding 20px
@@ -21,6 +34,7 @@
 				:font-family 'Avenir', sans-serif
 				&:last-child
 					:margin-right 0
+
 				a 
 					:text-decoration none
 					:outline 0
@@ -42,7 +56,26 @@
 				&:last-of-type
 					:margin-right 0
 					&:after
-						:content ''		
+						:content ''	
+		
+		@media screen and (max-width: 959px)
+			ul
+				:text-align left
+				li
+					:display block
+					:margin 10px 0
+					// :border-bottom 1px solid $gold
+					a 
+					 &:hover, &:focus, &.active
+					 	&:after
+					 		:border-bottom 0
+					&.hidden
+						:display none
+ 		@media (min-width: 959px)
+ 			ul
+ 				li 	
+ 					:display inline-block
+
 	&__logo
 		:display inline-block
 		img

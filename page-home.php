@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <nav id="site-navigation" class="site-header__navigation" role="navigation">
-	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'triumph' ); ?></button>
+	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'triumph' ); ?></button>
 	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 </nav><!-- #site-navigation -->
 
@@ -102,16 +102,16 @@
 			<div class="row">
 				<div class="col-half">
 					<p>Triumph Capital Limited</p> 
-					<p>171 East Liberty Street Suite 272</p>
+					<p><a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb">171 East Liberty Street Suite 272</a></p>
 					<p>Toronto, ON M6K 3P6</p>
 				</div>
 				<div class="col-half">
-					<p class="align-right">Phone:  647-345-0611</p>
-					<p class="align-right">Toll Free: 1-888-315-7781</p>
+					<p class="align-right"><a href="tel:+1-647-345-0611">Phone:  647-345-0611</a></p>
+					<p class="align-right"><a href="tel:+1-888-315-7781">Toll Free: 1-888-315-7781</a></p>
 					<p class="align-right">Fax: 1-888-315-7781</p>
 				</div>
 			</div>
-			<img class="map" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="">
+			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb"><img class="map" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="Map to 171 East Liberty Street"></a>
 		</div>
 	</div>
 </div>
@@ -119,7 +119,7 @@
 <div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
 	</div>
 
-<div id="quote" class="container">
+<div id="quote" class="container padding-top-100 padding-bottom-100">
 <?php while ( have_posts() ) : the_post(); ?>
 
 	<?php get_template_part( 'template-parts/content', 'page' ); ?>
