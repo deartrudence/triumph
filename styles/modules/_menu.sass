@@ -41,17 +41,22 @@
 					:color white
 					:position relative
 					:transition all 0.2s
+					&:after
+						:content ''
+						:position absolute
+						:height 2px
+						:width 100%
+						:background-color $gold
+						:bottom -20px
+						:left 0
+						:visibility hidden
+						:transform scaleX(0)
+						:transition all 0.2s
 					&:hover, &:focus, &.active
-						:color $gold	
+						:color $gold
 						&:after
-							:content ''
-							:border-bottom 3px solid $gold
-							:position absolute
-							:bottom -20px
-							:left 0
-							:width 100%
-							:transition all 0.2s
-
+							:visibility visible
+							:transform scaleX(1)	
 					
 				&:last-of-type
 					:margin-right 0

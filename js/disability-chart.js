@@ -38,10 +38,9 @@
     ]
 };
      
-var options = {
+var legend =  "<ul><li><span style=\"background-color:rgba(151,187,205,0.5)\">__</span>Male</li><li><span style=\"background-color:rgba(220,220,220,0.5)\">%</span>Female</li></ul>"
 
-     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
-}
+    $('#bar-chart-legend').html(legend);
 } )( jQuery );
 
 
