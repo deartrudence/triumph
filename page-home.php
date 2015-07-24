@@ -38,7 +38,7 @@
 
 <div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
 
-<div id="about"class="container padding-top-100">
+<div id="about" class="container padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">Who We Are</h3>
 	<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future. We are committed to adhering to a set of principles and practices that have been proven to deliver on the long-term goals of our clients. It is our mission to ensure that the concepts we put in place will exceed your goals and expectations, while providing the value and peace of mind you deserve.</p>
 </div>

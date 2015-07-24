@@ -125,6 +125,8 @@ function triumph_scripts() {
 
 	wp_enqueue_script('triumph-disability-chart', get_template_directory_uri(). '/js/disability-chart.js', array(), '20150718', true );
 
+	wp_enqueue_script('triumph-menu', get_template_directory_uri(). '/js/menu.js', array(), '20150722', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
