@@ -112,6 +112,10 @@ add_action( 'widgets_init', 'triumph_widgets_init' );
 function custom_excerpt_more( $more ) {
 	return '';
 }
+function custom_excerpt_length($length){
+	return 80;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 add_filter( 'excerpt_more', 'custom_excerpt_more' );
 
 /**

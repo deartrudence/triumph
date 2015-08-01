@@ -1,6 +1,15 @@
 .blog
 	&__single-post
+		:padding 25px 0
 		:border-bottom 2px solid $gold
+		:font-family $body-font
+		&:nth-child(2n)
+			.blog__single--image
+				:float right
+				:margin-right 0
+				:margin-left 5%	
+		&:last-of-type
+			:border-bottom none
 		p 
 			:margin 0
 		h2
@@ -14,14 +23,18 @@
 			:font-family $header-font
 			:font-weight 600
 			:line-height 36px
+			a 
+				:text-decoration none
+				:color $royal-purple
+				&:visited
+					:color $royal-purple
+						
 		&--date
 			:color $gold
 			:display inline-block
 			:font-size 18px
 			:font-family $header-font
 			:line-height 36px
-		&-authcat
-			:width 100%	
 		&--author 
 			:color $gold
 			:display inline-block
@@ -39,14 +52,31 @@
 			:color $gold
 			&:hover
 				:color $gold-hover
+			&:visited 
+				:color $gold	
 	&__single		
 		&--image
-			:width 30%
+			:width 35%
 			:display inline-block
 			:margin-right 5%
+			+display-for(sm xs)
+				:width 100%
+				:margin-right 0	
+				img
+					:width 100%
+					:margin-bottom 25px
+					
 		&--excerpt
 			:vertical-align top
-			:width 65%
+			:width 60%
 			:display inline-block
+			+display-for(sm xs)
+				:width 100%
+		&-authcat
+			:width 100%	
+			:font-family $subheader-font
+			:margin-bottom 25px		
+			
+
 							
 

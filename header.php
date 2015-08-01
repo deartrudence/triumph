@@ -17,6 +17,7 @@
 <link href='http://fonts.googleapis.com/css?family=PT+Sans|Muli' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/styles/style.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/styles/normalize.css">
 
 <?php wp_head(); ?>
 </head>
