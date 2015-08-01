@@ -75,8 +75,36 @@
 		&-authcat
 			:width 100%	
 			:font-family $subheader-font
-			:margin-bottom 25px		
+			:margin-bottom 25px	
+		&--full-content
+			p 
+				:margin 20px 0
+				&:first-of-type
+					:margin-top 0
+			+display-for(lg xl)
+				:width 80%			
 			
+#blog-single
+	:background $light-grey
+	:padding 50px 0
+	+display-for(sm xs)
+		:padding 25px 0
+	.container
+		:padding 50px 25px
+		:background white
+		:border 1px solid rgba(0,0,0,0.3)
+		+display-for(sm xs)
+			:padding 20px
+	
+	#comments
+		.comments-title
+			:color $royal-purple
+			:font-size 18px
+			:font-weight 600			
+		.comment-list
+			:list-style none	
+
+
 
 							
 
