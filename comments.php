@@ -22,12 +22,7 @@ if ( post_password_required() ) {
 
 	<?php if ( have_comments() ) : ?>
 
-	<h2 class="comments-title">
-		<?php
-			printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'twentyfourteen' ),
-				number_format_i18n( get_comments_number() ), get_the_title() );
-		?>
-	</h2>
+	<h2 class="comments-title">Comments</h2>
 
 	<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
 	<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
@@ -66,6 +61,11 @@ if ( post_password_required() ) {
 		$args = array(
 			'comment_notes_after' => '',
 		);
+
+		$fields = array(
+				'url' => ' '
+			);
+		
 	 ?>
 
 

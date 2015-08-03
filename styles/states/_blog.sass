@@ -97,12 +97,79 @@
 			:padding 20px
 	
 	#comments
+		input, textarea, select
+			:border 1px solid $gold
+			:background-color white
+			:color $royal-purple
+			:padding 7px
+			:transition all 0.5s
+			:width 96%
+			:margin-bottom 25px
+			&:focus
+				:outline none
+				:border 1px solid $gold-hover
+		input, select
+			:text-align center		
+		input[type=submit]
+			:background-color $gold
+			:box-shadow none
+			:text-shadow none
+			:color white
+			:font-size 20px
+			:display block
+			:margin 0 auto
+			&:hover, &:focus
+				:background-color $gold-hover
+				:border 1px solid $gold-hover		
+		.required
+			:color red
 		.comments-title
 			:color $royal-purple
 			:font-size 18px
-			:font-weight 600			
+			:font-weight 600
+			:margin-bottom 25px			
 		.comment-list
-			:list-style none	
+			+display-for(lg xl)
+				:width 80%
+			:list-style none
+			:margin 0
+			li 
+				:margin-bottom 25px
+				:border-left 1px solid $gold
+				:padding-left 25px
+		.children
+			:list-style none		
+		.comment-meta
+			:background-color white				
+		.comment-author
+			a
+				:color $royal-purple
+				:text-decoration none
+		.comment-reply-link
+			:color $gold
+			&:hover
+				:color $gold-hover		
+		.comment-metadata
+			a 
+				:color $black
+				:text-decoration none
+				:border-bottom 1px solid $gold
+				:font-size 13px		
+		.comment-form-author
+			+make-column(5.5)
+			+make-gutter(0,1)
+			:float left
+			input
+				:width 100%
+		.comment-form-email
+			+make-column(5.5)
+			:float left
+			input
+				:width 100%
+		.comment-form-comment
+			textarea
+				:width 100%		
+
 
 
 
