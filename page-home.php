@@ -102,7 +102,7 @@
 			<div class="row">
 				<div class="col-half">
 					<p>Triumph Capital Limited</p> 
-					<p><a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb">171 East Liberty Street Suite 272</a></p>
+					<p><a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank">171 East Liberty Street Suite 272</a></p>
 					<p>Toronto, ON M6K 3P6</p>
 				</div>
 				<div class="col-half">

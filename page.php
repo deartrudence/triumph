@@ -13,13 +13,15 @@
 get_header(); ?>
 
 <nav id="site-navigation" class="site-header__navigation" role="navigation">
+
+<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'triumph' ); ?></button>
 	
-	<?php wp_nav_menu( array( 'theme_location' => 'secondary') ); ?>
+	<?php wp_nav_menu( array( 'theme_location' => 'Secondary Menu') ); ?>
 </nav><!-- #site-navigation -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="container">
+			<div class="container padding-top-50 padding-bottom-100">
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>
