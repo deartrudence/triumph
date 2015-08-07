@@ -1,10 +1,6 @@
-<?php /*Template Name: Blog */ ?>
 <?php get_header(); ?>
 <div class="blog">
-	<?php $temp = $wp_query; $wp_query= null;
-		$wp_query = new WP_Query(); $wp_query->query('showposts=10' . '&paged='.$paged);
-
-		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+	<?php while(have_posts()): the_post(); ?>
 		<div class="container blog__single-post clearfix">
 			<div class="blog__single-title">
 				<h2 class="blog__single-post--title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

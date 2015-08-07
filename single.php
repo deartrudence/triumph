@@ -7,26 +7,30 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div class="blog" id="blog-single">
+		<div class="container blog__single-post">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class="blog__single-title">
+					<h2 class="blog__single-post--title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<p class="blog__single-post--date">- <?php the_time('F d, Y'); ?></p>
+				</div>
+				<div class="blog__single-authcat">
+					<p class="blog__single-post--author">By <?php the_author(); ?> in </p>
+					<div class="blog__single-post--category"><?php the_category(); ?></div>
+				</div>
+				<div class="blog__single--full-content">
+					<?php the_content(); ?>
+				</div>
 
-		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+				<?php
+					// If comments are open or we have at least one comment, load up the comment template.
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
+				?>
+			<?php endwhile ?>
+		</div>		
+	</div>
 
-			<?php the_post_navigation(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
-
-		<?php endwhile; // End of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

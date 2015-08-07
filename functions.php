@@ -112,6 +112,10 @@ add_action( 'widgets_init', 'triumph_widgets_init' );
 function custom_excerpt_more( $more ) {
 	return '';
 }
+function custom_excerpt_length($length){
+	return 80;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 add_filter( 'excerpt_more', 'custom_excerpt_more' );
 
 /**
@@ -137,6 +141,14 @@ function triumph_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'triumph_scripts' );
+
+function my_custom_comment_fields( $fields ){
+  if(isset($fields['url']))
+    unset($fields['url']);
+  return $fields;
+}
+
+add_filter( 'comment_form_default_fields', 'my_custom_comment_fields' );
 
 /**
  * Implement the Custom Header feature.
