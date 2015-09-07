@@ -29,17 +29,17 @@
 	<header id="masthead" class="home__header" role="banner">
 		<div class="site-branding">
 			<div class="clearfix">
-				<div class="clearfix hero-image" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev-1.jpg');  ">
-				<h1 class="header__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<div class="clearfix hero-image" style="background-image: url('<?php echo bloginfo('template_directory') ?>/images/rev-1.jpg');  ">
+			
 
 				<div class="container home__container">
 					<div class="title-center clearfix">		
 						<h2 class="header__title">
-							<span>Providing</span> you with <span>confidence</span> that
+							<span>Providing you</span> with <span>confidence</span> that
 						</h2>
 						<br>
 						<h2 class="header__title">
-							your family and wellbeing are
+							your <span>family</span> and <span>wellbeing</span> are
 						</h2>
 						<br>
 						<h2 class="header__title">

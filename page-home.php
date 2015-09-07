@@ -1,10 +1,13 @@
 <?php /* Template Name: Home */ ?>
 <?php get_header(); ?>
 
-<nav id="site-navigation" class="site-header__navigation" role="navigation">
+
+<nav id="site-navigation" class="site-header__navigation clearfix" role="navigation">
+	<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo bloginfo('template_directory'); ?>/images/triumphant-logo-06.svg" alt=""></a></div>
 	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'triumph' ); ?></button>
 	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 </nav><!-- #site-navigation -->
+
 
 <div id="home">
 	<?php $thumb_id = get_post_thumbnail_id();
@@ -18,7 +21,7 @@
 <div class="row container padding-top-100">
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Triumph Capital</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum omnis corporis, dolores laudantium harum itaque dicta odio, quas velit accusamus consequatur. Saepe, cupiditate, ea.</p>
+		<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future.</p>
 	</div>
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Life Services</h3>
@@ -36,7 +39,7 @@
 	</div>
 </div>
 
-<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
+<div class="clearfix" style="background-image: url('<?php echo bloginfo('template_directory') ?>/images/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; "></div>
 
 <div id="about" class="container padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">Who We Are</h3>
@@ -56,7 +59,7 @@
 	</div>
 </div>
 
-<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+<div class="clearfix" style="background-image: url('<?php echo bloginfo('template_directory') ?>/images/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
 </div>
 
 <div id="services"class="container padding-bottom-100 padding-top-100">
@@ -89,14 +92,14 @@
 </div>
 
 
-<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+<div class="clearfix" style="background-image: url('<?php echo bloginfo('template_directory') ?>/images/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
 </div>
 
 <div id="contact"class="container home__get-in-touch padding-top-100 padding-bottom-100">
 	<h3 class="home__subtitle margin-bottom-50">Get In Touch</h3>
 	<div class="row">
 		<div class="col-half">
-			<img class="get-in-touch"src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/partners.jpg" alt="">
+			<img class="get-in-touch"src="<?php echo bloginfo('template_directory') ?>/images/partners.jpg" alt="">
 		</div>
 		<div class="col-half">
 			<div class="row">
@@ -111,12 +114,12 @@
 					<p class="align-right">Fax: 1-888-315-7781</p>
 				</div>
 			</div>
-			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank"><img class="map" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/map1.png" alt="Map to 171 East Liberty Street"></a>
+			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank"><img class="map" src="<?php echo bloginfo('template_directory') ?>/images/map.png" alt="Map to 171 East Liberty Street"></a>
 		</div>
 	</div>
 </div>
 
-<div class="clearfix" style="background-image: url('<?php echo get_site_url() ?>/wp-content/uploads/2015/07/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
+<div class="clearfix" style="background-image: url('<?php echo bloginfo('template_directory') ?>/images/rev31.jpg'); height: 300px; background-attachment: fixed; background-size: cover; ">
 	</div>
 
 <div id="quote" class="container padding-top-100 padding-bottom-100">

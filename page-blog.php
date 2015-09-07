@@ -1,5 +1,11 @@
 <?php /*Template Name: Blog */ ?>
 <?php get_header(); ?>
+<nav id="site-navigation" class="site-header__navigation" role="navigation">
+<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo bloginfo('template_directory'); ?>/images/triumphant-logo-06.svg" alt=""></a></div>
+<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'triumph' ); ?></button>
+	
+	<?php wp_nav_menu( array( 'theme_location' => 'secondary') ); ?>
+</nav><!-- #site-navigation -->
 <div class="blog">
 	<?php $temp = $wp_query; $wp_query= null;
 		$wp_query = new WP_Query(); $wp_query->query('showposts=10' . '&paged='.$paged);
