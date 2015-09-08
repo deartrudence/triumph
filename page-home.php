@@ -68,24 +68,24 @@
 	<div class="row">
 		<div class="col-half">
 			<ul class="home__service-list">
-				<li>Triumph Association Pension Service</li>
-				<li>Investor Services</li>
-				<li>Wealth Protection</li>
-				<li>Leverage Investing</li>
-				<li>Alternative Investments</li>
-				<li>PHSP</li>
-				<li>Disability</li>
+				<li><a href="<?php echo get_site_url() ?>/triumph-association-pension-plan">Triumph Association Pension Service</a></li>
+				<li><a href="<?php echo get_site_url() ?>/investor-services">Investor Services</a></li>
+				<li><a href="<?php echo get_site_url() ?>/resp-advice">RESP</a></li>
+				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li>
+				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Investing for Young People</a></li>
+				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">PHSP</a></li>
+				<li><a href="<?php echo get_site_url() ?>/disability">Disability</a></li>
 			</ul>
 		</div>
 		<div class="col-half">
 			<ul class="home__service-list">
-				<li>Leverage Investing</li>
-				<li>Health Care</li>
+				<li><a href="<?php echo get_site_url() ?>/estate-planning">Estate Planning</a></li>
+				<li><a href="<?php echo get_site_url() ?>/health-care">Health Care</a></li>
 				<li><a href="<?php echo get_site_url() ?>/life-insurance">Life Insurance</a></li>
-				<li>Insurance for Doctors</li>
-				<li>Insurance for Lawyers</li>
-				<li>Long Term Care</li>
-				<li>Cancer Insurance</li>
+				<li><a href="<?php echo get_site_url() ?>/insurance-for-doctors">Insurance for Doctors</a></li>
+				<li><a href="<?php echo get_site_url() ?>/insurance-for-lawyers">Insurance for Lawyers</a></li>
+				<li><a href="<?php echo get_site_url() ?>/long-term-care">Long Term Care</a></li>
+				<li><a href="<?php echo get_site_url() ?>/cancer-insurance-cancer-guard">Cancer Insurance</a></li>
 			</ul>
 		</div>
 	</div>
