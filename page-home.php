@@ -49,12 +49,12 @@
 <div class="row container padding-bottom-100">
 	<div class="col-half home__bio">
 		<h3 >Diana Dyer</h3>
-		<h4 class="margin-bottom-50">President</h4>
+		<h4 class="margin-bottom-50">President and CEO</h4>
 		<p>As the President of Triumph Capital Limited, Diana brings a depth and understanding of the financial services industry that is rarely seen in the marketplace today. Her passion for helping families make informed decisions about their health care and living benefit needs has led her to become one of the most successful agents in her field. Diana holds a Diamond Club award for being listed as one of the top 30 brokers in Canada for more than 5 years. Diana has expertise in life accident and sickness products, as well as wealth and estate planning.</p>
 	</div>
 	<div class="col-half home__bio">
-		<h3 >Noah Dabrinski</h3>
-		<h4 class="margin-bottom-50">Vice President-Chief Compliance Officer</h4>
+		<h3 >Noah Drabinsky</h3>
+		<h4 class="margin-bottom-50">Executive Vice-President and Chief Investment Officer</h4>
 		<p>A dedicated advisor with a wealth of experience in estate planning and executive benefits. Noah has extensive training in industry compliance and has worked directly with large international insurance providers to develop processes and programs for brokerages to ensure the highest levels of ethical practices. Noah brings a unique view of financial services and how insurance products interact with a client’s long term financial goals. He is focused on tax efficient estate planning, long term investment and retirement strategies.</p>
 	</div>
 </div>
@@ -72,7 +72,7 @@
 				<li><a href="<?php echo get_site_url() ?>/investor-services">Investor Services</a></li>
 				<li><a href="<?php echo get_site_url() ?>/resp-advice">RESP</a></li>
 				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li>
-				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Investing for Young People</a></li>
+				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Investing for Young Professionals</a></li>
 				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">PHSP</a></li>
 				<li><a href="<?php echo get_site_url() ?>/disability">Disability</a></li>
 			</ul>

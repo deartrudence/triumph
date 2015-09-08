@@ -38,7 +38,7 @@
     ]
 };
      
-var legend =  "<ul><li><span style=\"background-color:rgba(151,187,205,0.5)\">__</span>Male</li><li><span style=\"background-color:rgba(220,220,220,0.5)\">%</span>Female</li></ul>"
+var legend =  "<ul><li><span style=\"background-color:rgba(151,187,205,0.5)\">__</span>Male</li><li><span style=\"background-color:rgba(220,220,220,0.5)\">__</span>Female</li></ul>"
 
     $('#bar-chart-legend').html(legend);
 } )( jQuery );
