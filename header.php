@@ -45,6 +45,7 @@
 						<h2 class="header__title">
 							<span>protected</span>
 						</h2>
+						<p class="down-arrow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/#home"><img src="<?php echo bloginfo('template_directory'); ?>/images/down-arrow.svg" alt=""></a></p>
 					</div>
 				</div>
 			</div>
