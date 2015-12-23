@@ -1,4 +1,4 @@
-#wpcf7-f2664-p2646-o1
+#wpcf7-f2664-p2646-o1, #wpcf7-f80-p77-o1, #wpcf7-f2749-p2379-o1, .wpcf7
 	:max-width 800px
 	:margin 0 auto
 	h3
@@ -12,8 +12,11 @@
 		:text-align center
 	.col-half
 		:margin-bottom 0.5em
+	fieldset
+		:margin-bottom 2.5em
 	input, textarea, select
 		:border 1px solid $gold
+		:border-radius 3px
 		:background-color white
 		:text-align center
 		:color $royal-purple
@@ -24,8 +27,9 @@
 		&:focus
 			:outline none
 			:border 3px solid $gold
-	textarea
+	textarea, input[type=file], input[name=PHSP], inpur[type=submit]
 		:width 98%
+		:border-radius 3px
 	select
 		:-webkit-appearance none
 		:padding 7px

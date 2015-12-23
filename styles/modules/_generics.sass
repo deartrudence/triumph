@@ -1,5 +1,10 @@
 @import variables/font
+@import mixins/button
+@import mixins/link
 body
+	:font-family $body-font
+	:line-height 26px
+	:letter-spacing 1.5px
 	h1, h2, h3, h4, h5, h6
 		:font-family $header-font
 		:letter-spacing 1.2px
@@ -34,6 +39,11 @@ body
 			// :font-size 26px
 			:line-height 1.5
 	:color $black
+
+	button
+		+button-style
+	a 
+		+link-style
 
 	// .hidden
 	// 	:display none

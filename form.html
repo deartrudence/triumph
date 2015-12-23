@@ -1,0 +1,121 @@
+<div><img style="margin-left: 20px; float: right; width: 40%; margin-top: 19px;" src="http://triumphant.ca/wp-content/themes/triumph-theme/images/triumphant-logo-06.svg" alt="Triumph Capital Limited" data-retina=""></div>
+
+<div style="clear:both;"></div>
+<fieldset>
+	<legend>Business&nbsp;</legend>
+
+	[text name1 id:name1 class:name1 placeholder "Name of Business Applicant"]<br>
+
+	[text nature id:nature class:nature placeholder "Nature of Business"]<br>
+
+	[text number id:number class:number placeholder "Number of Employees"]<br>
+
+	[select menu-652 "Self Employeed" "Professional Pratice" "Corporation"]
+
+</fieldset>
+
+
+<fieldset>
+<legend>Individual to be Covered&nbsp;</legend>
+
+
+	<div style="float:left;margin-right:80px;" class="mydiv">
+
+		[text name2 id:name2 class:name2 placeholder "Name (If different from business applicant)"]<br>
+
+		[date date1 id:date1 class:date1  date-format:yy-mm-dd placeholder "Date of Birth"]
+		<p>Sex <br />
+		[select sex "Male" "Female"]</p>
+		<p>Marital Status <br />
+		[select marital "Single"        "Married"        "Separated"       "Divorced"        "Widow (ER)"]</p>
+	</div>
+
+	<div style="float:left;" class="mydiv">
+
+		[text name3 id:name3 class:name3 placeholder "Name of Spouse"]<br>
+
+		[date date2 id:date2 class:date1  date-format:yy-mm-dd placeholder "Spouse's Date of Birth"]<br>
+
+
+		[text number2 id:number2 class:number2 placeholder "No. of Addtional Dependants"]<br>
+
+	</div>
+
+
+
+</fieldset>
+
+
+<fieldset>
+	<legend>Contact Information&nbsp;</legend>
+
+	<div style="float:left;margin-right:80px;" class="mydiv">
+		<h3>Business</h3>
+		[text address1 id:address1 class:address placeholder "Address"]<br>
+		[text city1 id:city1 class:city1 placeholder "City"]<br>
+		[text province1 id:province1 class:province1 placeholder "Province"]<br>
+		[text postalcode1 id:postalcode1 class:postalcode1 placeholder "Postal Code"]<br>
+		[text phone1 id:phone1 class:phone1 placeholder "Phone"]<br>
+		[text fax1 id:fax1 class:fax1 placeholder "Fax"]<br>
+		[text email1 id:email1 class:email1 placeholder "Email"]<br>
+
+	</div>
+
+
+	<div style="float:left;width:45%;" class="mydiv">
+
+		<h3>Personal</h3>
+		[text address2 id:address2 class:address placeholder "Address"]<br>
+		[text city2 id:city2 class:city2 placeholder "City"]<br>
+		[text province2 id:province2 class:province2 placeholder "Province"]<br>
+		[text postalcode2 id:postalcode2 class:postalcode2 placeholder "Postal Code"]<br>
+		[text phone2 id:phone2 class:phone2 placeholder "Phone"]<br>
+		[text fax2 id:fax2 class:fax2 placeholder "Fax"]<br>
+		[text email2 id:email2 class:email2 placeholder "Email"]<br>
+
+	</div>
+
+</fieldset>
+
+
+
+
+
+<fieldset>
+	<legend>Plan Setup &nbsp;</legend>
+	[textarea premium id:premium class:premium placeholder "Premium Contribution"]
+</fieldset>
+
+
+
+<fieldset>
+	<legend>Payment By &nbsp;</legend>
+	<div style="float:left;width:100%;">
+	[radio radio1 id:radio1 class:radio1 "Cheque" "Credit Card"]
+	</div>
+
+	<div style="clear:both;height:35px;"></div>
+
+	<div id="divx2" style="display:none;">
+	<p style="text-align:left;"><b>Payable to: Triumph Capital Limited</b><br>
+	Triumph Capital Limited<br />171 East Liberty Street Suite 272<br />Toronto, ON M6K 3P6
+	</p>
+	</div>
+	<div  id="divx" style="display:none;">
+	<div style="float:left;width:45%;margin-right:80px;" class="mydiv"><p>Card Type <br />[select cardtype id:cardtype class:cardtype "" "Visa"        "Master Card"        "Amex"     ]</p><p>[text name4 id:name4 class:name4 placeholder "Name of Card Holder"]</p></div>
+	<div style="float:left;width:45%;" class="mydiv"><p style="margin-top:24px;">[text accno id:accno class:accno placeholder "Account Number"]</p>
+	<p>[date expiry id:expiry class:expiry date-format:yy-mm-dd placeholder "Expiry"]</p>
+
+	</div></div>
+
+
+</fieldset>
+
+
+
+<p>[submit "Send"]</p>
+
+
+
+
+<script type="text/javascript">jQuery(document).ready(function(){ jQuery('input[type="radio"]').click(function(){ if(jQuery(this).attr("value")=="Cheque"){jQuery("#divx").hide();jQuery("#divx2").show();jQuery("#name4").val('');jQuery("#signature").val('');jQuery("#date4").val('');jQuery("#accno").val('');jQuery("#expiry").val('');jQuery('#cardtype').find('option[value=""]').prop('selected', true);}if(jQuery(this).attr("value")=="Credit Card"){jQuery("#divx").show();jQuery("#divx2").hide();}});});</script>s

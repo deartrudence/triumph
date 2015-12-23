@@ -14,7 +14,7 @@
 		$thumb_url_array = wp_get_attachment_image_src( $thumb_id, 'full', true );
 			$thumb_url = $thumb_url_array[0]; ?>
 	<header class="home__header" style="background-image: url('<?php echo $thumb_url ?>')">
-		
+
 	</header>
 
 
@@ -50,7 +50,7 @@
 	<div class="col-half home__bio">
 		<h3 >Diana Dyer</h3>
 		<h4 class="margin-bottom-50">President and CEO</h4>
-		<p>As the President of Triumph Capital Limited, Diana brings a depth and understanding of the financial services industry that is rarely seen in the marketplace today. Her passion for helping families make informed decisions about their health care and living benefit needs has led her to become one of the most successful agents in her field. Diana holds a Diamond Club award for being listed as one of the top 30 brokers in Canada for more than 5 years. Diana has expertise in life accident and sickness products, as well as wealth and estate planning.</p>
+		<p>As the President and CEO of Triumph Capital Limited, Diana brings a depth and understanding of the financial services industry that is rarely seen in the marketplace today. Her passion for helping families make informed decisions about their financial needs has led her to become one of the most successful agents in her field. Diana holds a Diamond Club award for being listed as one of the top 30 brokers in Canada for more than 5 years and is the youngest broker to have ever received this award. Diana has been active in a number of charities and public outreach programs, most recently Motionball for the Special Olympics. Diana is known for her discretion and her ability to identify and address the needs of her clients, regardless of their situation. Her skillset allows her to excel and build lasting relationships built on mutual respect and a deeply rooted desire to help others accomplish their financial goals.</p>
 	</div>
 	<div class="col-half home__bio">
 		<h3 >Noah Drabinsky</h3>
@@ -74,7 +74,6 @@
 				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li>
 				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Investing for Young Professionals</a></li>
 				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">PHSP</a></li>
-				<li><a href="<?php echo get_site_url() ?>/disability">Disability</a></li>
 			</ul>
 		</div>
 		<div class="col-half">
@@ -85,7 +84,6 @@
 				<li><a href="<?php echo get_site_url() ?>/insurance-for-doctors">Insurance for Doctors</a></li>
 				<li><a href="<?php echo get_site_url() ?>/insurance-for-lawyers">Insurance for Lawyers</a></li>
 				<li><a href="<?php echo get_site_url() ?>/long-term-care">Long Term Care</a></li>
-				<li><a href="<?php echo get_site_url() ?>/cancer-insurance-cancer-guard">Cancer Insurance</a></li>
 			</ul>
 		</div>
 	</div>
@@ -104,7 +102,7 @@
 		<div class="col-half">
 			<div class="row">
 				<div class="col-half">
-					<p>Triumph Capital Limited</p> 
+					<p>Triumph Capital Limited</p>
 					<p><a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank">171 East Liberty Street Suite 272</a></p>
 					<p>Toronto, ON M6K 3P6</p>
 				</div>
