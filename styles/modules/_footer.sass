@@ -5,10 +5,39 @@
 	:font-weight lighter
 	:padding 30px
 	:margin 0
-	p 	
+	p
 		:margin 0
-	a 	
+	a
 		:text-decoration none
 		:color $gold
 		&:visited, &:hover, &:focus
 			:color $gold-hover
+	.social-icons
+		:list-style none
+		:padding 0
+		:margin 0
+		+display-for(xs)
+			:width 100%
+			:text-align center
+		li
+			:padding-bottom 12px
+			+display-for(xs)
+				:display inline-block
+				:width 33%
+
+		.fa
+			:width 32px
+			:height 32px
+			:border-radius 50%
+			:line-height 32px
+			:background $gold
+			:color white
+			:text-align center
+			:margin-right 12px
+			&:hover
+				:background $gold-hover
+		span
+			+display-for(xs)
+				:display none
+
+

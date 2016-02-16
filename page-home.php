@@ -106,11 +106,18 @@
 					<p><a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank">171 East Liberty Street Suite 272</a></p>
 					<p>Toronto, ON M6K 3P6</p>
 				</div>
-				<div class="col-half">
-					<p class="align-right"><a href="tel:+1-647-345-0611">Phone:  647-345-0611</a></p>
-					<p class="align-right"><a href="tel:+1-888-315-7781">Toll Free: 1-888-315-7781</a></p>
-					<p class="align-right">Fax: 1-888-315-7781</p>
-				</div>
+
+
+        <div class="col-half">
+          <p class="align-right"><a href="tel:+1-647-345-0611">Phone:  647-345-0611</a></p>
+          <p class="align-right"><a href="tel:+1-888-315-7781">Toll Free: 1-888-315-7781</a></p>
+          <p class="align-right">Fax: 1-888-315-7781</p>
+        </div>
+          <ul class="social-icons-home">
+            <li><a href="https://twitter.com/Diana_M_Dyer" target="_blank"><i class="fa fa-twitter"></i></a></li><!--
+            *--><li><a href="https://www.facebook.com/Triumph-Capital-Limited-656977831072525" target="_blank"><i class="fa fa-facebook"></i></a></li><!--
+            *--><li><a href="https://www.instagram.com/triumph_capital/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
 			</div>
 			<a href="https://www.google.ca/maps/place/Triumph+Capital+Limited/@43.6383919,-79.4184031,17z/data=!3m1!4b1!4m2!3m1!1s0x882b350387712add:0xda950ce2da76decb" target="_blank"><img class="map" src="<?php echo bloginfo('template_directory') ?>/images/map.png" alt="Map to 171 East Liberty Street"></a>
 		</div>
