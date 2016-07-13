@@ -24,18 +24,18 @@
 		<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future.</p>
 	</div>
 	<div class="col-half home__info-box">
-		<h3 class="home__block-title margin-bottom-50">Life Services</h3>
-		<p>Triumph provides specialized strategic solutions to meet your life insurance needs. From mortgage insurance to estate planning, we specialize in making sure you and your loved ones are protected.</p>
+		<h3 class="home__block-title margin-bottom-50">Investor Services</h3>
+		<p>Triumph Capital specializes in investment analysis, wealth management, retirement, and estate planning. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
 	</div>
 </div>
 <div class="row container padding-bottom-100">
 	<div class="col-half home__info-box">
-		<h3 class="home__block-title margin-bottom-50">Investor Services</h3>
-		<p>Triumph Capital specializes in investment analysis, retirement, and estate planning. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
+		<h3 class="home__block-title margin-bottom-50">PHSP/HSA</h3>
+		<p>If you are self employed or incorporated, we offer customized Private Health Service Plan and Health Spending Account services designed to help you maximize your savings on health and medical expenses. Lower your tax obligations and provide flexible, affordable, health benefits to yourself and your employees.</p>
 	</div>
 	<div class="col-half home__info-box">
-		<h3 class="home__block-title margin-bottom-50">Health Services</h3>
-		<p>Triumph Capital has partnered with the largest insurance companies in Canada to provide individuals with comprehensive, health coverage tailored to suit an individual's ever-changing needs and health concerns.</p>
+		<h3 class="home__block-title margin-bottom-50">Technology Development</h3>
+		<p> We are dedicated to developing cutting edge financial technology to deliver you better, faster, and more accurate services on demand and in real time. Stay tuned!</p>
 	</div>
 </div>
 
