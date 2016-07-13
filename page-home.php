@@ -50,11 +50,12 @@
 	<div class="col-half home__bio">
 		<h3 >Diana Dyer</h3>
 		<h4 class="margin-bottom-50">President and CEO</h4>
-		<p>As the President and CEO of Triumph Capital Limited, Diana brings a depth and understanding of the financial services industry that is rarely seen in the marketplace today. Her passion for helping families make informed decisions about their financial needs has led her to become one of the most successful agents in her field. Diana holds a Diamond Club award for being listed as one of the top 30 brokers in Canada for more than 5 years and is the youngest broker to have ever received this award. Diana has been active in a number of charities and public outreach programs, most recently Motionball for the Special Olympics. Diana is known for her discretion and her ability to identify and address the needs of her clients, regardless of their situation. Her skillset allows her to excel and build lasting relationships built on mutual respect and a deeply rooted desire to help others accomplish their financial goals.</p>
+		<p>As the President and CEO of Triumph Capital Limited, Diana brings a depth and understanding of the financial services industry that is rarely seen in the marketplace today. Her passion for helping families make informed decisions about their financial needs has led her to become one of the most successful agents in her field. Diana holds a Diamond Club award for being listed as one of the top 30 brokers in Canada for more than 5 years and is the youngest broker to have ever received this award. Diana has been active in a number of charities and public outreach programs, most recently Motionball for the Special Olympics. Diana is known for her discretion and her ability to identify and address the needs of her clients, regardless of their situation. Her skillset allows her to excel and build lasting relationships built on mutual respect and a deeply rooted desire to help others accomplish their financial goals. Diana is the 2015 Notable.ca award winner in Finance</p>
 	</div>
 	<div class="col-half home__bio">
 		<h3 >Noah Drabinsky</h3>
-		<h4 class="margin-bottom-50">Executive Vice-President and Chief Investment Officer</h4>
+		<h4 class="margin-bottom-50"> Executive Vice-President and COO</h4>
+    <p> Noah has been a financial adviser for over a decade. Throughout this time, he has developed a network of relationships across the financial industry, both in the United States and Canada, that allow him to provide unique advice and opportunities for clients across the economic spectrum. A focus on ethical investing and business practices is something he believes in and shapes the culture of the entire Triumph team. Noah's clients include small to mid-size owner managed businesses, public companies, and professional practices across Ontario. His strategies are known for incorporating creative risk management solutions, along with stable long-term results appropriate throughout a clients entire financial life. Constantly seeking new opportunities for private clients, he can often be found at financial conferences, speaking at corporate events, or at his desk buried under a pile of earnings reports.</p>
 		<p>A dedicated advisor with a wealth of experience in estate planning and executive benefits. Noah has extensive training in industry compliance and has worked directly with large international insurance providers to develop processes and programs for brokerages to ensure the highest levels of ethical practices. Noah brings a unique view of financial services and how insurance products interact with a client’s long term financial goals. He is focused on tax efficient estate planning, long term investment and retirement strategies.</p>
 	</div>
 </div>
@@ -68,22 +69,22 @@
 	<div class="row">
 		<div class="col-half">
 			<ul class="home__service-list">
-				<li><a href="<?php echo get_site_url() ?>/triumph-association-pension-plan">Triumph Association Pension Service</a></li>
-				<li><a href="<?php echo get_site_url() ?>/investor-services">Investor Services</a></li>
-				<li><a href="<?php echo get_site_url() ?>/resp-advice">RESP</a></li>
-				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li>
-				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Investing for Young Professionals</a></li>
-				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">PHSP</a></li>
+<!-- 				<li><a href="<?php echo get_site_url() ?>/triumph-association-pension-plan">Triumph Association Pension Service</a></li> -->
+				<li><a href="<?php echo get_site_url() ?>/investor-services">Retirement Planning</a></li>
+<!-- 				<li><a href="<?php echo get_site_url() ?>/resp-advice">RESP</a></li>
+				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li> -->
+				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Millennial Investment Planning</a></li>
+				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">Private Health Savings Plan</a></li>
 			</ul>
 		</div>
 		<div class="col-half">
 			<ul class="home__service-list">
 				<li><a href="<?php echo get_site_url() ?>/estate-planning">Estate Planning</a></li>
-				<li><a href="<?php echo get_site_url() ?>/health-care">Health Care</a></li>
-				<li><a href="<?php echo get_site_url() ?>/life-insurance">Life Insurance</a></li>
+				<li><a href="<?php echo get_site_url() ?>/health-care">Professional and Corporate Benefits</a></li>
+				<!-- <li><a href="<?php echo get_site_url() ?>/life-insurance">Life Insurance</a></li>
 				<li><a href="<?php echo get_site_url() ?>/insurance-for-doctors">Insurance for Doctors</a></li>
-				<li><a href="<?php echo get_site_url() ?>/insurance-for-lawyers">Insurance for Lawyers</a></li>
-				<li><a href="<?php echo get_site_url() ?>/long-term-care">Long Term Care</a></li>
+				<li><a href="<?php echo get_site_url() ?>/insurance-for-lawyers">Insurance for Lawyers</a></li> -->
+<!-- 				<li><a href="<?php echo get_site_url() ?>/long-term-care">Long Term Care</a></li> -->
 			</ul>
 		</div>
 	</div>
