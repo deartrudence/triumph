@@ -35,15 +35,11 @@
 				<div class="container home__container">
 					<div class="title-center clearfix">		
 						<h2 class="header__title">
-							<span>Providing you</span> with <span>confidence</span> that
+							Welcome to <span>Triumph Capital Limited</span>
 						</h2>
 						<br>
 						<h2 class="header__title">
-							your <span>family</span> and <span>wellbeing</span> are
-						</h2>
-						<br>
-						<h2 class="header__title">
-							<span>protected</span>
+							A <span>Financial Technology</span> Advisory Firm
 						</h2>
 						<p class="down-arrow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/#home"><img src="<?php echo bloginfo('template_directory'); ?>/images/down-arrow.svg" alt=""></a></p>
 					</div>
