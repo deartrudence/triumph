@@ -21,11 +21,11 @@
 <div class="row container padding-top-100">
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Triumph Capital</h3>
-		<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future.</p>
+		<p>Triumph Capital is a Toronto-based financial technology advisory firm that has over thirty years of experience providing individual and group wealth solutions to our clients.</p>
 	</div>
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Investor Services</h3>
-		<p>Triumph Capital specializes in investment analysis, wealth management, retirement, and estate planning. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
+		<p>Triumph Capital specializes in investment analysis, wealth management. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
 	</div>
 </div>
 <div class="row container padding-bottom-100">
