@@ -21,11 +21,11 @@
 <div class="row container padding-top-100">
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Triumph Capital</h3>
-		<p>Triumph Capital is a Toronto-based financial technology advisory firm that has over thirty years of experience providing individual and group wealth solutions to our clients.</p>
+		<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future.</p>
 	</div>
 	<div class="col-half home__info-box">
 		<h3 class="home__block-title margin-bottom-50">Investor Services</h3>
-		<p>Triumph Capital specializes in investment analysis, wealth management. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
+		<p>Triumph Capital specializes in investment analysis, wealth management, retirement, and estate planning. We will provide you with comprehensive solutions for all of your investment planning needs.</p>
 	</div>
 </div>
 <div class="row container padding-bottom-100">
@@ -65,22 +65,22 @@
 
 <div id="services"class="container padding-bottom-100 padding-top-100">
 	<h3 class="home__subtitle margin-bottom-50">What We Do</h3>
-	<p>Triumph Capital is a Toronto-based firm that has over thirty years of experience providing personalized service and a unique, comprehensive look at the needs of its clients, both for today and the future. We are committed to adhering to a set of principles and practices that have been proven to deliver on the long-term goals of our clients. It is our mission to ensure that the concepts we put in place will exceed your goals and expectations, while providing the value and peace of mind you deserve.</p>
+	<p>Triumph Capital is a Toronto-based financial technology advisory firm that has over thirty years of experience providing individual and group wealth solutions to our clients.</p>
 	<div class="row">
 		<div class="col-half">
 			<ul class="home__service-list">
 <!-- 				<li><a href="<?php echo get_site_url() ?>/triumph-association-pension-plan">Triumph Association Pension Service</a></li> -->
-				<li><a href="<?php echo get_site_url() ?>/investor-services">Retirement Planning</a></li>
+				<li><a href="<?php echo get_site_url() ?>/investor-services">Wealth Management</a></li>
 <!-- 				<li><a href="<?php echo get_site_url() ?>/resp-advice">RESP</a></li>
 				<li><a href="<?php echo get_site_url() ?>/rrsp-advice">RRSP</a></li> -->
 				<li><a href="<?php echo get_site_url() ?>/investing-for-young-people">Millennial Investment Planning</a></li>
-				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">Private Health Savings Plan</a></li>
 			</ul>
 		</div>
 		<div class="col-half">
 			<ul class="home__service-list">
-				<li><a href="<?php echo get_site_url() ?>/estate-planning">Estate Planning</a></li>
+				<!-- <li><a href="<?php echo get_site_url() ?>/estate-planning">Estate Planning</a></li> -->
 				<li><a href="<?php echo get_site_url() ?>/health-care">Professional and Corporate Benefits</a></li>
+				<li><a href="<?php echo get_site_url() ?>/phsp-faqs">Private Health Savings Plan</a></li>
 				<!-- <li><a href="<?php echo get_site_url() ?>/life-insurance">Life Insurance</a></li>
 				<li><a href="<?php echo get_site_url() ?>/insurance-for-doctors">Insurance for Doctors</a></li>
 				<li><a href="<?php echo get_site_url() ?>/insurance-for-lawyers">Insurance for Lawyers</a></li> -->
